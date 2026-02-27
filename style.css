@@ -1,0 +1,30 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: aliceblue;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .container input,
+        button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .container button {
+            cursor: pointer;
+            background-color: rgb(4, 185, 4);
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
