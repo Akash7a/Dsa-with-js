@@ -4,7 +4,7 @@
 // const num3 = Number(prompt("Enter a number:"));
 
 // for (let counter = 1; counter <= num3; counter++) {
-//     console.log(counter)
+    // console.log(counter)
 // }
 const container = document.querySelector(".container");
 const numberInput = document.querySelector("#numberInput");
@@ -36,9 +36,9 @@ printButton.addEventListener("click", printResult);
 // const num2 = 10;
 // for (let counter = 1; counter <= num2; counter++) {
 //     if (counter % 2 === 0) {
-//         console.log(counter);
+        // console.log(counter);
 //     } else {
-//         console.log(counter)
+        // console.log(counter)
 //     }
 // }
 
@@ -96,7 +96,7 @@ for (let i = 1; i <=number2; i++){
 let number3 = 5;
 
 for (let i = 1; i <=number3; i++){
-    console.log(i ** 3)
+    // console.log(i ** 3)
 }
 
 // 9. print only numbers that are both even and perfect squares up to n
@@ -108,6 +108,6 @@ for(let i = 1; i <= number4; i++){
     let root = Math.floor(Math.sqrt(i));
 
     if(root *root === i && i % 2 === 0){
-        console.log(root)
+        // console.log(root)
     }
 }
